@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<TitledPane animated="false" collapsible="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="287.0" prefWidth="1173.0" text="Dice Roller" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="261.0" prefWidth="998.0">
+         <children>
+            <TextField editable="false" focusTraversable="false" layoutX="16.0" layoutY="14.0" prefHeight="25.0" prefWidth="42.0" text="D4's" />
+            <Polygon fill="DODGERBLUE" layoutX="74.0" layoutY="133.0" points="-37.0, 27.0, 34.0, 27.0, 0.0, -43.0" stroke="BLACK" strokeType="INSIDE" />
+            <Spinner id="inputOne" fx:id="inputOne" editable="true" layoutX="14.0" layoutY="222.0" prefHeight="25.0" prefWidth="116.0" />
+            <TextField editable="false" focusTraversable="false" layoutX="136.0" layoutY="14.0" prefHeight="25.0" prefWidth="42.0" text="D6's" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc71f" height="78.0" layoutX="147.0" layoutY="87.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+            <Spinner id="inputTwo" fx:id="inputTwo" editable="true" layoutX="136.0" layoutY="223.0" prefHeight="25.0" prefWidth="116.0" />
+            <TextField editable="false" focusTraversable="false" layoutX="261.0" layoutY="14.0" prefHeight="25.0" prefWidth="42.0" text="D8's" />
+            <Polygon fill="#32ff1f" layoutX="305.0" layoutY="101.0" points="-38.65748977661133, 26.99996566772461, 0.0, 93.13152313232422, 37.522499084472656, 26.99996566772461, 2.0345052689663135E-5, -45.30465316772461" scaleX="0.75" scaleY="0.75" stroke="BLACK" strokeType="INSIDE" />
+            <Line endX="8.5" endY="-63.0" layoutX="268.0" layoutY="190.0" startX="64.0" startY="-63.0" />
+            <Spinner id="inputThree" fx:id="inputThree" editable="true" layoutX="261.0" layoutY="223.0" prefHeight="25.0" prefWidth="116.0" />
+            <TextField editable="false" focusTraversable="false" layoutX="383.0" layoutY="14.0" prefHeight="25.0" prefWidth="49.0" text="D10's" />
+            <Polygon fill="DODGERBLUE" layoutX="425.0" layoutY="136.0" points="-31.0, 10.0, 0.0, 55.0, 34.0, 10.0, 34.0, -16.0, 0.0, -63.0, -31.0, -16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="DODGERBLUE" layoutX="420.0" layoutY="138.0" points="5.0, -65.0, 39.0, 8.5, -26.0, 8.5" stroke="BLACK" strokeType="INSIDE" />
+            <Line endX="-11.5" endY="-102.5" layoutX="437.0" layoutY="249.0" startX="-11.5" startY="-59.5" />
+            <Spinner id="inputFour" fx:id="inputFour" editable="true" layoutX="383.0" layoutY="223.0" prefHeight="25.0" prefWidth="116.0" />
+            <TextField editable="false" focusTraversable="false" layoutX="509.0" layoutY="14.0" prefHeight="25.0" prefWidth="49.0" text="D12's" />
+            <Polygon fill="DODGERBLUE" layoutX="559.0" layoutY="137.0" points="-31.75, -47.5, -50.25, -21.5, -50.25, 9.25, -35.0, 32.20710754394531, 0.0, 48.0, 36.25, 34.0, 50.25, 9.25, 50.25, -21.5, 32.25, -47.5, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="DODGERBLUE" layoutX="560.0" layoutY="159.0" points="-1.375, 5.0, 29.5, -17.5, 17.5, -50.5, -17.75, -50.5, -30.25, -17.5" stroke="BLACK" strokeType="INSIDE" />
+            <Line endX="32.5" endY="-11.0" layoutX="559.0" layoutY="101.0" startX="18.75" startY="7.5" />
+            <Line endX="40.25" endY="34.25" layoutX="569.0" layoutY="111.0" startX="20.5" startY="30.25" />
+            <Line endX="-23.875" endY="89.25" layoutX="583.0" layoutY="94.0" startX="-23.375" startY="70.0" />
+            <Line endX="-58.5" endY="35.25" layoutX="569.0" layoutY="111.0" startX="-39.25" startY="30.5" />
+            <Line endX="-41.75" endY="-20.25" layoutX="569.0" layoutY="111.0" startX="-26.5" startY="-2.5" />
+            <Spinner id="InputFive" fx:id="inputFive" editable="true" layoutX="509.0" layoutY="223.0" prefHeight="25.0" prefWidth="116.0" />
+            <TextField editable="false" focusTraversable="false" layoutX="635.0" layoutY="14.0" prefHeight="25.0" prefWidth="48.0" text="D20's" />
+            <Polygon fill="DODGERBLUE" layoutX="693.0" layoutY="126.0" points="-50.0, 31.0, 0.0, 57.0, 50.0, 31.0, 50.0, -28.0, 0.0, -60.0, -50.0, -28.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="DODGERBLUE" layoutX="699.0" layoutY="141.0" points="-56.0, 16.0, 44.0, 16.0, -6.0, -75.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polyline fill="#80ff0000" layoutX="643.0" layoutY="67.0" points="100.0, 31.75, 75.5, 44.25, 50.0, 90.0, 50.0, 116.0, 50.0, 90.0, 25.75, 44.25, 75.5, 44.25, 25.75, 44.25, 0.0, 31.75" />
+            <Spinner id="inputSix" fx:id="inputSix" editable="true" layoutX="635.0" layoutY="223.0" prefHeight="25.0" prefWidth="116.0" />
+            <TextField editable="false" focusTraversable="false" layoutX="762.0" layoutY="14.0" prefHeight="25.0" prefWidth="95.0" text="Total bonuses" />
+            <Text layoutX="762.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ex: Dex mod, Proficiency bonus, Saving throw bonus, Plus to damage" wrappingWidth="125.0" />
+            <Spinner id="inputSeven" fx:id="inputSeven" editable="true" layoutX="762.0" layoutY="222.0" prefHeight="25.0" prefWidth="116.0" />
+            <Button id="rollButton" fx:id="rollButton" alignment="CENTER" layoutX="899.0" layoutY="121.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="81.0" text="Roll" />
+            <TextField editable="false" focusTraversable="false" layoutX="1030.0" layoutY="12.0" prefHeight="25.0" prefWidth="95.0" text="Output" />
+            <TextFlow id="output" layoutX="989.0" layoutY="68.0" prefHeight="172.0" prefWidth="168.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="173.0" stroke="BLACK" strokeType="INSIDE" width="168.0" />
+               </children></TextFlow>
+         </children></AnchorPane>
+  </content>
+</TitledPane>
