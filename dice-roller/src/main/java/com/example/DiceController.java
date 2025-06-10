@@ -46,7 +46,7 @@ public class DiceController implements Initializable{
     @FXML
     private Spinner<Integer> inputSeven;
     SpinnerValueFactory<Integer> inputSevenValueFactory = 
-        new SpinnerValueFactory.IntegerSpinnerValueFactory(0,128,0);
+        new SpinnerValueFactory.IntegerSpinnerValueFactory(-128,128,0);
 
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) 
