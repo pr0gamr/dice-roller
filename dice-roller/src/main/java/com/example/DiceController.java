@@ -72,7 +72,7 @@ public class DiceController implements Initializable{
         inputSeven.setValueFactory(inputSevenValueFactory);
         inputOneValueFactory.setValue(0);
 
-        System.out.println(inputOne.getValue());
+        output.setText("The D4's rolled: " + "\nThe d6's rolled: " + "\nThe d8's rolled: " + "\nThe d10's rolled: " + "\nThe d12's rolled: " + "\nThe d20's rolled: " + "\nThe bonus is: " + "\nThe Total is: ");
     }
 
     @FXML
@@ -164,9 +164,8 @@ public class DiceController implements Initializable{
         }
 
         total += inputSeven.getValue();
-        System.out.println(total);
 
-        output.setText("The D4's rolled: " + dFourTotal + "\nThe d6's rolled: " + dSixTotal);
+        output.setText("The D4's rolled: " + dFourTotal + "\nThe d6's rolled: " + dSixTotal + "\nThe d8's rolled: " + dEightTotal + "\nThe d10's rolled: " + dTenTotal + "\nThe d12's rolled: " + dTwelveTotal + "\nThe d20's rolled: " + dTwentyTotal + "\nThe bonus is: " + inputSeven.getValue() + "\nThe Total is: " + total);
     }
 
     
